@@ -29,7 +29,8 @@ class RNLinkedInSessionManager: NSObject {
         state: state,
         permissions: scopes,
         redirectUrl: redirectUri
-      )
+      ),
+      nativeAppChecker: WebLoginOnly()
     )
   }
   
